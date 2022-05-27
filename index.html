@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8" /> 
     <title>Run Buddy</title>
-</head>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
 <body>
+    <header>
     <h1> RUN BUDDY</h1>
-    What We Do What You Do Your Trainers Reach Out
+    <nav>
+        <ul>
+            <li>
+                <a href="#what-we-do">What We Do</a>
+            </li>
+            <li>
+                <a href="#what-you-do">What You Do</a>
+            </li>
+            <li>
+                <a href="your-trainers">Your Trainers</a>
+            </li>
+            <li>
+                <a href="#reach-out">Reach Out</a>
+            </li>
+        </ul>
+        </header>
+        <section>
+            <div>
+                <h3>Get Started Today</h3>
+                <p>Fill out this form and one of our trainers will schedule a consult</p>
+            </div>
+            <form>
+                <label for ="name">Enter full name:</label>
+                <input type="text" placeholder="Your Name" name="name" id="name" />
+                <label for="email">Enter email address:</label>
+                <input type="text" placeholder="Email Address" name="email" id="email" />
+                <label for="phone">Enter a telephone number:</label>
+                <input type="text" placeholder=" Phone Number" name="phone" id="phone" />
+                <p>
+                    Have you worked out with a trainer before?
+                   <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                   <label for="trainer-yes">Yes</label>
+                   <input type="radio" name="trainer-confirm" id="trainer-no" />
+                   <label for="trainer-no">No</label>
+                </p>
+            </form>
+            </div>
+        </section>
+    </nav>
+<nav></nav>
     <section>
     </section>
     <section>
@@ -23,6 +64,10 @@
     </section>
     <footer>
         <h2>❤️ Made with love by Run Buddy.</h2>
+        <div>
+            <a href="#">Read Our Privacy Policy</a><br>
+            &copy; 2022 Run Buddy, Inc.
+        </div>
     </footer>
 </body>
 </html>
