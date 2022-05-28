@@ -31,7 +31,7 @@ header nav ul li {
   }
   
 header nav ul li a {
-    margin: 0 30px;
+    margin:  30px;
     font-weight: lighter;
     font-size: 22px;
   }
@@ -71,4 +71,10 @@ footer a {
     position: absolute;
     bottom: 120px;
     right: 140px;
+}
+h3 {
+    margin:0
+}
+.hero-form p {
+    margin: 5px 0 15px 0;
 }
