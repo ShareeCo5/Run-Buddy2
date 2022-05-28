@@ -52,20 +52,23 @@ footer div {
     text-align: right;
 }
 footer a {
-    color: #024e76;
-}
-section {
-
+    color:#024e76;
 }
 .hero {
-    background-image:  url("../images/hero-bg-1.jpeg");
+    background-image: url("../images/hero-bg-1.jpeg");
     height: 600px;
     background-size: cover;
     background-position: center;
+    
+    
 }
 .hero-form {
+    border: 3px solid #024e76;
     background-color: #fce138;
     padding: 20px;
     width:500px;
-    color: #024e76
+    color: #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
 }
